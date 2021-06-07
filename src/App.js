@@ -5,11 +5,11 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import browserHistory from "history/createBrowserHistory";
+import { HashRouter as Router } from 'react-router-dom';
+
 function App() {
   return (
-    <Router history={browserHistory}>   
+    <Router>   
         <Header />
         <Switch>
         <Route exact path ='/' render={About}/>
