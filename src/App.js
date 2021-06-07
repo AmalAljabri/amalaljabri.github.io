@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { browserHistory } from 'react-router';
+import browserHistory from "history/createBrowserHistory";
 function App() {
   return (
     <Router history={browserHistory}>   
