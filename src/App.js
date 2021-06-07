@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter basename="/">   
         <Header />
         <Switch>
-        <Route exact path ='/' render={About}/>
-        <Route exact path ='/projects' render={Projects}/>
-        <Route exact path ='/contact' render={Contact}/>
+        <Route exact path = {process.env.PUBLIC_URL + '/'} render={About}/>
+        <Route exact path = {process.env.PUBLIC_URL +'/projects'} render={Projects}/>
+        <Route exact path = {process.env.PUBLIC_URL +'/contact'} render={Contact}/>
         </Switch>
         <Footer/>
     </BrowserRouter>

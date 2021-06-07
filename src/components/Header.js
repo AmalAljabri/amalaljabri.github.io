@@ -11,17 +11,17 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink exact to="/">
+                        <NavLink exact to={process.env.PUBLIC_URL + "/"}>
                             {aboutPage} About&nbsp;
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/projects">
+                        <NavLink exact to={process.env.PUBLIC_URL + "/projects"}>
                             {projectsPage} Projects&nbsp;
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/contact">
+                        <NavLink exact to={process.env.PUBLIC_URL + "/contact"}>
                             {contactPage} Contact&nbsp;
                         </NavLink>
                     </li>
