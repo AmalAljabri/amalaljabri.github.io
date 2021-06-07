@@ -21,9 +21,8 @@ const About = () => {
                 <div className="info">
                     <p>Hello .. My name is Amal Saad Aljabri and I am from Madina, a peaceful city in the west part of Saudi Arabia.
                     I am a developer and researcher in computer science.
-                    I have a passion for coding and get most enjoyment from solving problems and sharing knowledge.
-                    I love automating almost everything I can and I enjoy building things all by myself.
-                I love learning so I'm every day, I strive to learn and increase my knowledge, skills, and experience in the fields of computer science!</p>
+                    I have a passion for coding and get most enjoyment from solving problems and building things all by myself.
+                    I love learning so I'm every day, I strive to learn and increase my knowledge, skills, and experience in the fields of computer science!</p>
                 </div>
                 <h3>{education} Education</h3>
                 <div className="info">
