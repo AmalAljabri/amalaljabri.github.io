@@ -4,11 +4,11 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
+import { Route, Switch } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>   
+    <Router basename={process.env.PUBLIC_URL}>   
         <Header />
         <Switch>
         <Route exact path ='/' render={About}/>
@@ -16,7 +16,7 @@ function App() {
         <Route exact path ='/contact' render={Contact}/>
         </Switch>
         <Footer/>
-    </BrowserRouter>
+    </Router>
   );
 }
 
