@@ -53,7 +53,7 @@ const Project = (tags) => {
     return (
         <div>
             <br />
-            <h3 className="center" data-aos="fade-up" data-aos-duration="2000">{tags}</h3>
+            <h3 className="center">{tags}</h3>
             <ul className="cards">
                 {
                     numList.map((num, index) =>
