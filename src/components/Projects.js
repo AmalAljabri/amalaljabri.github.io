@@ -3,7 +3,8 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-re-super-tabs';
 import { projectsList, numList } from '../lists/ProjectsList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Projects = () => {
     return (
         <section>
@@ -48,16 +49,17 @@ const Projects = () => {
 export default Projects;
 
 const Project = (tags) => {
+    AOS.init();
     return (
         <div>
             <br />
-            <h3 className="center">{tags}</h3>
-            <ul className="cards" >
+            <h3 className="center" data-aos="fade-up" data-aos-duration="2000">{tags}</h3>
+            <ul className="cards">
                 {
                     numList.map((num, index) =>
                         (projectsList[num].tag).includes(tags) &&
-                        <li className="cards_item" key={index}>
-                            <div className="card">
+                        <li className="cards_item" key={index} >
+                            <div className="card"  data-aos="fade-up" data-aos-duration="2000">
                                 <div className="card_image"><img src={projectsList[num].image} alt='img-project' /></div>
                                 <div className="card_content">
                                     <h4 className="card_title">{projectsList[num].name}</h4>
