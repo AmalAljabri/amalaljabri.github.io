@@ -8,12 +8,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/">   
+    <BrowserRouter basename={process.env.PUBLIC_URL}>   
         <Header />
         <Switch>
-        <Route exact path = {process.env.PUBLIC_URL + '/'} render={About}/>
-        <Route exact path = {process.env.PUBLIC_URL +'/projects'} render={Projects}/>
-        <Route exact path = {process.env.PUBLIC_URL +'/contact'} render={Contact}/>
+        <Route exact path ='/' render={About}/>
+        <Route exact path ='/projects' render={Projects}/>
+        <Route exact path ='/contact' render={Contact}/>
         </Switch>
         <Footer/>
     </BrowserRouter>
