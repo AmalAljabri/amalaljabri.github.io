@@ -8,7 +8,7 @@ const Contact = () => {
                 <p className="center">
                 {contactList.map((contact,index) =>
                     <a key={index} href={contact.link}>
-                    <img className="space" alt={contact.name} src={contact.image}/>
+                    <img className="space contact-img" alt={contact.name} src={contact.image}/>
                     </a>
                     )}
                 </p>
