@@ -5,10 +5,12 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { createBrowserHistory } from "history";
 
+const history = createBrowserHistory();
 function App() {
   return (
-    <BrowserRouter>   
+    <BrowserRouter history={history}>   
         <Header />
         <Switch>
         <Route exact path ='/' render={About}/>
