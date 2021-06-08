@@ -24,6 +24,7 @@ import img23 from '../images/Object Detection.png';
 import img24 from '../images/AR Books.png';
 import img25 from '../images/AR Plane Detection.png';
 import img26 from '../images/Snake Game.png';
+import img27 from '../images/My Website.png';
 
 export const projectsList = [
     {
@@ -48,6 +49,12 @@ export const projectsList = [
         text: "It is was implemented using Python, PyTorch, HTML, CSS, bootstrap, JavaScript, and Amazon's SageMaker service.",
         youtube:'https://www.youtube.com/watch?v=9o-XNc_2jE4',
         github:'https://github.com/AmalAljabri/Sentiment-Analysis-Model',
+    },  {
+        tag:['All Projects', 'Web App'],
+        image:img27,
+        name:'My Website',
+        text: 'It is was implemented using React JavaScript library.',
+        github:'https://github.com/AmalAljabri/amalaljabri.github.io/tree/master',
     },
     {
         tag:['All Projects', 'Web App', 'Machine Learning','Deep Learning'],
