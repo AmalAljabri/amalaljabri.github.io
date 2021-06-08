@@ -59,7 +59,7 @@ const Project = (tags) => {
                     numList.map((num, index) =>
                         (projectsList[num].tag).includes(tags) &&
                         <li className="cards_item" key={index} >
-                            <div className="card"  data-aos="fade-up" data-aos-duration="2000">
+                            <div className="card"  data-aos="fade-up" data-aos-duration="1000">
                                 <div className="card_image"><img src={projectsList[num].image} alt='img-project' /></div>
                                 <div className="card_content">
                                     <h4 className="card_title">{projectsList[num].name}</h4>
