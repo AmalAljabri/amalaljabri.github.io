@@ -3,8 +3,7 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-re-super-tabs';
 import { projectsList, numList } from '../lists/ProjectsList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 const Projects = () => {
     return (
         <section>
@@ -49,7 +48,6 @@ const Projects = () => {
 export default Projects;
 
 const Project = (tags) => {
-    AOS.init();
     return (
         <div>
             <br />

@@ -1,6 +1,4 @@
 import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import {
     about, education, date, location, honours,
     experience, role, publication, interest, check,
@@ -13,7 +11,6 @@ import { interestsList } from '../lists/InterestsList';
 import { skillsList } from '../lists/SkillsList';
 
 const About = () => {
-    AOS.init();
     return (
         <section>
             <div className="main">

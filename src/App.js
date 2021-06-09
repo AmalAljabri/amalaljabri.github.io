@@ -6,6 +6,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
 import { HashRouter as Router } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function App() {
   return (
