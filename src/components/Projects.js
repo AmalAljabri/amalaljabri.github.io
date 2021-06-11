@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="main">
                 <h3 className="center">A sample of my tech projects!</h3>
                 <Tabs activeTab='All' >
-                    <TabList className="center">
+                    <TabList className="center term-tags">
                         <Tab component={() => <button className='btn-menu space'>All</button>} id='All' />
                         <Tab component={() => <button className='btn-menu space'>Web</button>} id='Web' />
                         <Tab component={() => <button className='btn-menu space'>Mobile</button>} id='Mobile' />
@@ -50,14 +50,13 @@ export default Projects;
 const Project = (tags) => {
     return (
         <div>
-            <br />
-            <h3 className="center">{tags}</h3>
+            <h3 className="center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{tags}</h3>
             <ul className="cards">
                 {
                     numList.map((num, index) =>
                         (projectsList[num].tag).includes(tags) &&
                         <li className="cards_item" key={index} >
-                            <div className="card"  data-aos="fade-up" data-aos-duration="1000">
+                            <div className="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                                 <div className="card_image"><img src={projectsList[num].image} alt='img-project' /></div>
                                 <div className="card_content">
                                     <h4 className="card_title">{projectsList[num].name}</h4>
