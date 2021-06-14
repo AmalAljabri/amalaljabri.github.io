@@ -13,7 +13,7 @@ export const educationList = [
   {
     name: "Bachelor's Degree in Computer Science",
     date: '(10 NOV 2016 - 2 APR 2020)',
-    location: 'Misk Academy - Udacity',
+    location: 'Taibah University',
     honours: 'First-Class Honours',
   },
   {

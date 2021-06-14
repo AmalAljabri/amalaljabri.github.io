@@ -24,8 +24,10 @@ const Footer = () => {
     useEffect(() => {
         window.addEventListener("scroll", toggleVisibility);
 
-        return () => { window.removeEventListener("scroll", toggleVisibility) };
-
+        return () => { 
+            window.removeEventListener("scroll", toggleVisibility) 
+  
+        };
     }, []);
 
 
