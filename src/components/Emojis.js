@@ -10,6 +10,7 @@ export const about = <span role="img" aria-label="emoji">😎</span>;
 export const education = <span role="img" aria-label="emoji">🎓</span>;
 export const date = <span role="img" aria-label="emoji">📆</span>;
 export const location = <span role="img" aria-label="emoji">🏫</span>;
+export const link = <span role="img" aria-label="emoji">🔗</span>;
 export const honours = <span role="img" aria-label="emoji">🥇</span>;
 export const experience = <span role="img" aria-label="emoji">💼</span>;
 export const role = <span role="img" aria-label="emoji">🌱</span>;

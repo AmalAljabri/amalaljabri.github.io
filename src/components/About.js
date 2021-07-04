@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     about, education, date, location, honours,
-    experience, role, publication, interest, check,
+    experience, role, publication, link, interest, check,
     skills
 } from './Emojis';
 import { educationList } from '../lists/EducationList';
@@ -78,7 +78,10 @@ const About = () => {
                                     publication.date && <p className="text">{date} {publication.date}</p>
                                 }
                                 {
-                                    publication.location && <p className="text">{location} {publication.location}</p>
+                                    publication.publisher && <p className="text">{location} {publication.publisher}</p>
+                                }
+                                {
+                                    publication.DOI && <p className="text">{link} DOI: <a href='https://ieeexplore.ieee.org/document/9450783'>{publication.DOI}</a></p>
                                 }
 
                             </div>

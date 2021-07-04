@@ -47,18 +47,20 @@ export const skillsList = [
             'https://img.shields.io/badge/Amazon SageMaker%20-%234053D6.svg?&style=for-the-badge&logo=amazon sagemaker&logoColor=white',
             'https://img.shields.io/badge/prezi%20-%233181FF.svg?&style=for-the-badge&logo=prezi&logoColor=white',
             'https://img.shields.io/badge/firebase%20-%23FFCA28.svg?&style=for-the-badge&logo=firebase&logoColor=black',
-            'https://img.shields.io/badge/Adobe Illustrator%20-%23FF9A00.svg?&style=for-the-badge&logo=Adobe Illustrator&logoColor=black'
+            'https://img.shields.io/badge/Adobe Illustrator%20-%23FF9A00.svg?&style=for-the-badge&logo=Adobe Illustrator&logoColor=black',
+            'https://img.shields.io/badge/UML diagrams%20-%2336465D.svg?&style=for-the-badge&logo=UML diagrams&logoColor=white'
         ],
     },
     {
         name:'Personal Skills',
         links:[
-            'https://img.shields.io/badge/Quick Learner%20-%23009943.svg?&style=for-the-badge&logo=&logoColor=white',
+            'https://img.shields.io/badge/Quick Learner%20-%23BA478F.svg?&style=for-the-badge&logo=&logoColor=white',
             'https://img.shields.io/badge/Organized%20-%2300485B.svg?&style=for-the-badge&logo=&logoColor=white',
             'https://img.shields.io/badge/Problem Solving%20-%23D32323.svg?&style=for-the-badge&logo=&logoColor=white',
             'https://img.shields.io/badge/Ability to Work Under Pressure%20-%23FC7E0F.svg?&style=for-the-badge&logo=&logoColor=white',
             'https://img.shields.io/badge/Teamwork%20-%23AC2E45.svg?&style=for-the-badge&logo=&logoColor=white',
-            'https://img.shields.io/badge/Research Skills%20-%233E4348.svg?&style=for-the-badge&logo=&logoColor=white'
+            'https://img.shields.io/badge/Research Skills%20-%233E4348.svg?&style=for-the-badge&logo=&logoColor=white',
+            'https://img.shields.io/badge/Excellent written and oral communication%20-%23006241.svg?&style=for-the-badge&logo=&logoColor=white'
         ],
     }
 ];
