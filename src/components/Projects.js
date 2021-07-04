@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <section>
             <div className="main">
-                <h2 className="center">A sample of my tech projects!</h2>
+                <h2 className="center">My tech projects!</h2>
                 <Tabs activeTab='All' >
                     <TabList className="center term-tags">
                         <Tab component={() => <button className='btn-menu space'>All</button>} id='All' />
