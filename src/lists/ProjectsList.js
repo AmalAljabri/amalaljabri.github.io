@@ -25,6 +25,7 @@ import img24 from '../images/AR Books.png';
 import img25 from '../images/AR Plane Detection.png';
 import img26 from '../images/Snake Game.png';
 import img27 from '../images/My Website.png';
+import img28 from '../images/TMDB Movie Dataset Analysis.png';
 
 export const projectsList = [
     {
@@ -95,6 +96,13 @@ export const projectsList = [
         text: 'It is was implemented using SQL, Python, Pandas, Matplotlib, and Streamlit.',
         youtube:'https://www.youtube.com/watch?v=i9sVUrlcGkY',
         github:'https://github.com/AmalAljabri/Explore-Weather-Trends'
+    },
+    {
+        tag:['All Projects', 'Data Analysis'],
+        image:img28,
+        name:'TMDB Movie Dataset Analysis',
+        text: 'It is was implemented using Python language, Pandas, Matplotlib, Seaborn, and Numpy.',
+        github:'https://github.com/AmalAljabri/TMDB-Movie-Dataset-Analysis'
     },
     {
         tag:['All Projects', 'Web App'],
