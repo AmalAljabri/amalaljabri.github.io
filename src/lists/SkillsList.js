@@ -60,7 +60,7 @@ export const skillsList = [
             'https://img.shields.io/badge/Ability to Work Under Pressure%20-%23FC7E0F.svg?&style=for-the-badge&logo=&logoColor=white',
             'https://img.shields.io/badge/Teamwork%20-%23AC2E45.svg?&style=for-the-badge&logo=&logoColor=white',
             'https://img.shields.io/badge/Research Skills%20-%233E4348.svg?&style=for-the-badge&logo=&logoColor=white',
-            'https://img.shields.io/badge/Excellent written and oral communication%20-%23006241.svg?&style=for-the-badge&logo=&logoColor=white'
+            'https://img.shields.io/badge/Excellent communication%20-%23006241.svg?&style=for-the-badge&logo=&logoColor=white'
         ],
     }
 ];

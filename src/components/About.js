@@ -81,7 +81,7 @@ const About = () => {
                                     publication.publisher && <p className="text">{location} {publication.publisher}</p>
                                 }
                                 {
-                                    publication.DOI && <p className="text">{link} DOI:<a href='https://ieeexplore.ieee.org/document/9450783'>{publication.DOI}</a></p>
+                                    publication.DOI && <p className="text">{link} DOI: <a href='https://ieeexplore.ieee.org/document/9450783'>{publication.DOI}</a></p>
                                 }
 
                             </div>
