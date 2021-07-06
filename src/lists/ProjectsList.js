@@ -25,15 +25,23 @@ import img24 from '../images/Calculator App.png';
 import img25 from '../images/My Website.png';
 import img26 from '../images/Weather App.png';
 import img27 from '../images/Explore Weather Trends.png';
-import img28 from '../images/TMDB Movie Dataset Analysis.png';
-
+import img28 from '../images/Todo Reminder App.png';
+import img29 from '../images/TMDB Movie Dataset Analysis.png';
 export const projectsList = [
     {
         tag:['All Projects', 'Data Analysis'],
-        image:img28,
+        image:img29,
         name:'TMDB Movie Dataset Analysis',
-        text: 'It is was implemented using Python language, Pandas, Matplotlib, Seaborn, and Numpy.',
+        text: 'It is was implemented using Python, Pandas, Matplotlib, Seaborn, and Numpy.',
         github:'https://github.com/AmalAljabri/TMDB-Movie-Dataset-Analysis'
+    },
+    {
+        tag:['All Projects', 'Web App'],
+        image:img28,
+        name:'Todo Reminder App',
+        text: 'It is was implemented using React js, Hooks, and Redux.',
+        youtube:'https://www.youtube.com/watch?v=wv5sHvlbACk',
+        github:'https://github.com/AmalAljabri/Todo-Reminder-App'
     },
     {
         tag:['All Projects', 'Web App','Data Analysis'],
