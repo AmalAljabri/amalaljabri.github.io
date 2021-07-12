@@ -27,7 +27,15 @@ import img26 from '../images/Weather App.png';
 import img27 from '../images/Explore Weather Trends.png';
 import img28 from '../images/Todo Reminder App.png';
 import img29 from '../images/TMDB Movie Dataset Analysis.png';
+import img30 from '../images/Analyze AB Test Results.png';
 export const projectsList = [
+       {
+        tag:['All Projects', 'Data Analysis'],
+        image:img30,
+        name:'Analyze A/B Test Results',
+        text: 'It is was implemented using Python, Pandas, Matplotlib, Numpy, and Statsmodels.',
+        github:'https://github.com/AmalAljabri/Analyze-A-B-Test-Results'
+    },
     {
         tag:['All Projects', 'Data Analysis'],
         image:img29,
