@@ -5,11 +5,6 @@ export const experienceList = [
         location:'Ministry of Health',
     },
     {
-        name:'Artificial Intelligence Engineer Training Program',
-        date:'(9 JUN 2021 - Present)',
-        location:'Saudi Digital Academy - Simplilearn',
-    },
-    {
         name:'AR/VR Intern',
         date:'(7 JUN 2020 - 22 JULY 2020)',
         location:'Taibah Valley',
