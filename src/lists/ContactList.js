@@ -19,9 +19,9 @@ export const contactList = [
         link: 'https://www.youtube.com/channel/UCo5YQBPpqqnN8gEDCFSs6rQ/videos',
         image: 'https://img.shields.io/badge/youtube-%23ff0000.svg?&style=for-the-badge&logo=youtube&logoColor=white',
     },
-    {
+    /*{
         name: 'Twitter',
-        link: 'https://twitter.com/AmalSMJ',
+        link: '',
         image: 'https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white'
-    },
+    },*/
 ];
