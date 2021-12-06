@@ -10,6 +10,8 @@ export const skillsList = [
             'https://img.shields.io/badge/php%20-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white',
             'https://img.shields.io/badge/sql%20-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white',
             'https://img.shields.io/badge/dart%20-%230175C2.svg?&style=for-the-badge&logo=dart&logoColor=white',
+            'https://img.shields.io/badge/swift%20-%23F05138.svg?&style=for-the-badge&logo=swift&logoColor=white',
+
         ],
     },
     {

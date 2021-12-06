@@ -55,19 +55,20 @@ const Project = (tags) => {
                 {
                     numList.map((num, index) =>
                         (projectsList[num].tag).includes(tags) &&
-                        <li className="cards_item" key={index} >
+                        <li className="cards-item" key={index} >
                             <div className="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                                <div className="card_image"><img src={projectsList[num].image} alt='img-project' /></div>
-                                <div className="card_content">
-                                    <h4 className="card_title">{projectsList[num].name}</h4>
-                                    <p className="card_text">{projectsList[num].text}</p>
+                                <div className="card-image"><img src={projectsList[num].image} alt='img-project' /></div>
+                                <div className="card-content">
+                                    <h4 className="card-title">{projectsList[num].name}</h4>
+                                    <p className="card-text">{projectsList[num].text}</p>
                                     {
                                         projectsList[num].github &&
-                                        <a className="btncard" href={projectsList[num].github} aria-label="link"><FontAwesomeIcon icon={faGithubSquare} /> </a>
+                                        <a className="btn-link space" href={projectsList[num].github} aria-label="link">Github</a>
+
                                     }
                                     {
                                         projectsList[num].youtube &&
-                                        <a className="btncard" href={projectsList[num].youtube} aria-label="link"><FontAwesomeIcon icon={faYoutubeSquare} /> </a>
+                                        <a className="btn-link space" href={projectsList[num].youtube} aria-label="link">Youtube</a>
                                     }
                                 </div>
                             </div>

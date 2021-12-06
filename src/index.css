@@ -69,6 +69,7 @@ h2 {
 
 h3 {
     margin: 0 0 1em 0;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -82,6 +83,9 @@ h5 {
     margin: 0 0 1.75em 0;
 }
 
+span{
+    color: #c9d1d9;
+}
 strong {
     color: #58A6FF;
 }
@@ -89,6 +93,7 @@ strong {
 .footer {
     margin-top: -15px;
     padding-bottom: 15px;
+    
 }
 
 .main {
@@ -194,19 +199,19 @@ img {
     padding: 0;
 }
 
-.cards .cards_item {
+.cards .cards-item {
     display: flex;
     padding: 0.6rem;
 }
 
 @media (min-width: 40rem) {
-    .cards .cards_item {
+    .cards .cards-item {
         width: 50%;
     }
 }
 
 @media (min-width: 56rem) {
-    .cards .cards_item {
+    .cards .cards-item {
         width: 33.3333%;
     }
 }
@@ -226,11 +231,11 @@ img {
     background-color: #121D2F !important;
 }
 
-.card_content {
+.card-content {
     padding: 1.1rem;
 }
 
-.card_title {
+.card-title {
     font-size: 1.20rem;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -238,20 +243,20 @@ img {
     margin: 0px;
 }
 
-.card_text {
+.card-text {
     font-size: 0.975rem;
     line-height: 1.5;
     margin-bottom: 0.5rem;
     font-weight: 400;
 }
 
-.card_image {
+.card-image {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
 }
 
-.btncard {
+.btn-card {
     color: #788089;
     font-size: 28px;
     font-weight: 500;
@@ -260,7 +265,7 @@ img {
     margin: 0 0.30em 0 0;
 }
 
-.btncard:hover {
+.btn-card:hover {
     color: #224D87;
 }
 
@@ -276,6 +281,7 @@ img {
     border: 1px solid #30363d;
     border-radius: 6px;
     font-size: large;
+    transition: all;
 }
 
 .btn-scroll:hover {
@@ -299,4 +305,32 @@ img {
 .btn-menu:hover {
     border: 1px solid #224D87;
     background-color: #121D2F;
+}
+
+.btn-link {
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    color: #c9d1d9;
+    background-color: #21262d;
+    border-color: rgba(240, 246, 252, 0.1);   
+}
+
+
+.btn-link:hover{
+    background-color: #21262d;
+    border-color: #8b949e;
 }

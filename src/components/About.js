@@ -17,7 +17,7 @@ const About = () => {
                 <h2 className="center">A little bit of information about myself!</h2>
                 <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{about} About Me</h3>
                 <div className="info" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                    <p>Hello .. My name is Amal Aljabri and I am from Madina, a peaceful city in the west part of Saudi Arabia.
+                    <p>Hello .. My name is <span>Amal Aljabri</span> and I am from Madina, a peaceful city in the west part of Saudi Arabia.
                     I am a developer and researcher in computer science.
                     I have a passion for coding and get most enjoyment from solving problems and building things all by myself.
                     I love learning so I'm every day, I strive to learn and increase my knowledge, skills, and experience in the fields of computer science!</p>

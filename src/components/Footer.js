@@ -30,13 +30,10 @@ const Footer = () => {
         };
     }, []);
 
-
-
-
     return (
         <Fragment>
             <div className='footer'>
-                <p className="center">Thanks for visiting! {visit}
+                <p className="center"><span>Thanks for visiting!</span> {visit}
                 </p>
             </div>
             {
