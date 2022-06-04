@@ -1,0 +1,361 @@
+{
+    "contact":[
+        {
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/amal-aljabri",
+            "image": "https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"
+        },
+        {
+            "name": "Github",
+            "link": "https://github.com/AmalAljabri",
+            "image": "https://img.shields.io/badge/github-%23323131.svg?&style=for-the-badge&logo=github&logoColor=white"
+        },
+        {
+            "name": "Youtube",
+            "link": "https://www.youtube.com/channel/UCo5YQBPpqqnN8gEDCFSs6rQ/videos",
+            "image": "https://img.shields.io/badge/youtube-%23ff0000.svg?&style=for-the-badge&logo=youtube&logoColor=white"
+        }
+    ],
+    "education":[
+        {
+            "name": "Data Analyst Nanodegree Program",
+            "date": "30 MAY 2021 - 25 JULY 2021",
+            "location": "Misk Academy - Udacity"
+        
+          },
+          {
+            "name": "Deep Learning Nanodegree Program",
+            "date": "22 SEP 2020 - 12 DEC 2020",
+            "location": "Misk Academy - Udacity"
+          },
+          {
+            "name": "Bachelor's Degree in Computer Science",
+            "date": "10 NOV 2016 - 2 APR 2020",
+            "location": "Taibah University",
+            "honours": "First-Class Honours"
+          },
+          {
+            "name": "Associate Degree in Computer Programming and Information",
+            "date": "31 AUG 2014 - 24 MAY 2016",
+            "location": "Taibah University",
+            "honours": "First-Class Honours"
+          }
+
+    ],
+    "experience":[
+        {
+            "name":"Computer Specialist",
+            "date":"16 AUG 2021 - Present",
+            "location":"Ministry of Health"
+        },
+        {
+            "name":"Artificial Intelligence Engineer Training Program",
+            "date":"1 JUN 2021 – 4 FEB 2022",
+            "location":"SDA & Simplilearn"
+        },
+        {
+            "name":"AR/VR Intern",
+            "date":"7 JUN 2020 - 22 JULY 2020",
+            "location":"Taibah Valley"   
+        },
+        {
+            "name":"Internship",
+            "date":"17 JAN 2016 - 1 MAY 2016",
+            "location":"Ministry of Education"
+        }
+    ],
+    "interests":[
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Data Science",
+        "Web App Development",
+        "Mobile App Development",
+        "Augmented and Virtual Reality",
+        "Mathematics and Statistics",
+        "Scientific Researche",
+        "Health Information Systems"
+    ],
+    "skills":[
+        {
+            "name":"Programming Languages",
+            "links":[
+                "https://img.shields.io/badge/html%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white",
+                "https://img.shields.io/badge/css%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white",
+                "https://img.shields.io/badge/javascript%20-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black",
+                "https://img.shields.io/badge/java%20-%23007396.svg?&style=for-the-badge&logo=java&logoColor=white",
+                "https://img.shields.io/badge/python%20-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white",
+                "https://img.shields.io/badge/php%20-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white",
+                "https://img.shields.io/badge/sql%20-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white",
+                "https://img.shields.io/badge/dart%20-%230175C2.svg?&style=for-the-badge&logo=dart&logoColor=white",
+                "https://img.shields.io/badge/swift%20-%23F05138.svg?&style=for-the-badge&logo=swift&logoColor=white"
+    
+            ]
+        },
+        {
+            "name":"Libraries and Frameworks",
+            "links":[
+                "https://img.shields.io/badge/opencv%20-%235C3EE8.svg?&style=for-the-badge&logo=opencv&logoColor=white",
+                "https://img.shields.io/badge/tensorflow%20-%23FF6F00.svg?&style=for-the-badge&logo=tensorflow&logoColor=white",
+                "https://img.shields.io/badge/matplotlib%20-%23306998.svg?&style=for-the-badge&logo=matplotlib&logoColor=black",
+                "https://img.shields.io/badge/pandas%20-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white",
+                "https://img.shields.io/badge/pytorch%20-%23EE4C2C.svg?&style=for-the-badge&logo=pytorch&logoColor=white",
+                "https://img.shields.io/badge/keras%20-%23D00000.svg?&style=for-the-badge&logo=keras&logoColor=white",
+                "https://img.shields.io/badge/flask%20-%23000000.svg?&style=for-the-badge&logo=flask&logoColor=white",
+                "https://img.shields.io/badge/numpy%20-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white",
+                "https://img.shields.io/badge/flutter%20-%2302569B.svg?&style=for-the-badge&logo=flutter&logoColor=white",
+                "https://img.shields.io/badge/streamlit%20-%23FF4B4B.svg?&style=for-the-badge&logo=streamlit&logoColor=white",
+                "https://img.shields.io/badge/scikit learn%20-%23F7931E.svg?&style=for-the-badge&logo=scikit-learn&logoColor=black",
+                "https://img.shields.io/badge/vuforia%20-%2356b746.svg?&style=for-the-badge&logo=vuforia&logoColor=white",
+                "https://img.shields.io/badge/TailwindCSS%20-%2306B6D4.svg?&style=for-the-badge&logo=TailwindCSS&logoColor=white",
+                "https://img.shields.io/badge/bootstrap%20-%237952B3.svg?&style=for-the-badge&logo=bootstrap&logoColor=white",
+                "https://img.shields.io/badge/node.js%20-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white",
+                "https://img.shields.io/badge/express.js%20-%23339933.svg?&style=for-the-badge&logo=express.js&logoColor=white",
+                "https://img.shields.io/badge/react%20-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black",
+                "https://img.shields.io/badge/redux%20-%23764ABC.svg?&style=for-the-badge&logo=redux&logoColor=black",
+                "https://img.shields.io/badge/GetX%20-%235C3EE8.svg?&style=for-the-badge&logo=GetX&logoColor=white"
+            ]
+        },
+        {
+            "name":"Other Technical Skills",
+            "links":[
+                "https://img.shields.io/badge/unity3d%20-%23000000.svg?&style=for-the-badge&logo=unity&logoColor=white",
+                "https://img.shields.io/badge/npm%20-%23CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white",
+                "https://img.shields.io/badge/git%20-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white",
+                "https://img.shields.io/badge/jupyter%20-%23F37626.svg?&style=for-the-badge&logo=jupyter&logoColor=white",
+                "https://img.shields.io/badge/docker%20-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white",
+                "https://img.shields.io/badge/microsoft office%20-%23D83B01.svg?&style=for-the-badge&logo=microsoft office&logoColor=white",
+                "https://img.shields.io/badge/Amazon SageMaker%20-%234053D6.svg?&style=for-the-badge&logo=amazon sagemaker&logoColor=white",
+                "https://img.shields.io/badge/prezi%20-%233181FF.svg?&style=for-the-badge&logo=prezi&logoColor=white",
+                "https://img.shields.io/badge/firebase%20-%23FFCA28.svg?&style=for-the-badge&logo=firebase&logoColor=black",
+                "https://img.shields.io/badge/Adobe Illustrator%20-%23FF9A00.svg?&style=for-the-badge&logo=Adobe Illustrator&logoColor=black",
+                "https://img.shields.io/badge/UML diagrams%20-%2336465D.svg?&style=for-the-badge&logo=UML diagrams&logoColor=white",
+                "https://img.shields.io/badge/API Design%20-%237F2B7B.svg?&style=for-the-badge&logo=API Design&logoColor=white",
+                "https://img.shields.io/badge/Operating Systems%20-%230081A5.svg?&style=for-the-badge&logo=Operating Systems&logoColor=white"
+            ]
+        },
+        {
+            "name":"Personal Skills",
+            "links":[
+                "https://img.shields.io/badge/Self--Learning%20-%23BA478F.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Organization%20-%2300485B.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Planning%20-%2300B388.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Problem Solving%20-%23D32323.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Troubleshooting%20-%23FC7E0F.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Teamwork%20-%23AC2E45.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Research%20-%233E4348.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Written and Oral Communication%20-%23006241.svg?&style=for-the-badge&logo=&logoColor=white"
+            ]
+        }
+    ],
+    "publications":[
+        {
+            "name":"Overcoming Speech Anxiety Using Virtual Reality with Voice and Heart Rate Analysis",
+            "date":"16 DEC 2020",
+            "publisher":"Published in: 2020 13th International Conference on Developments in eSystems Engineering (DeSE)",
+            "DOI":"10.1109/DeSE51703.2020.9450783",
+            "link":"https://ieeexplore.ieee.org/document/9450783"
+        }
+    ],
+    "projects":[
+        {
+            "tag": ["All Projects", "Data Analysis"],
+            "image": "https://raw.githubusercontent.com/AmalAljabri/amalaljabri.github.io/main/src/images/Communicate%20Data%20Findings.png",
+            "name": "Communicate Data Findings",
+            "text": "It was implemented using Python, Pandas, Matplotlib, Seaborn, and NumPy.",
+            "github": "https://github.com/AmalAljabri/Communicate-Data-Findings"
+        },
+        {
+            "tag": ["All Projects", "Data Analysis"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Wrangle%20and%20Analyze%20Data.png?raw=true",
+            "name": "Wrangle and Analyze Data",
+            "text": "It was implemented using Python, Pandas, Matplotlib, Seaborn, Requests, Tweepy, Json, and NumPy.",
+            "github": "https://github.com/AmalAljabri/Wrangle-and-Analyze-Data"
+        },
+        {
+            "tag": ["All Projects", "Data Analysis"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Analyze%20AB%20Test%20Results.png?raw=true",
+            "name": "Analyze A/B Test Results",
+            "text": "It was implemented using Python, Pandas, Matplotlib, Numpy, and Statsmodels.",
+            "github": "https://github.com/AmalAljabri/Analyze-A-B-Test-Results"
+        },
+        {
+            "tag": ["All Projects", "Data Analysis"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/TMDB%20Movie%20Dataset%20Analysis.png?raw=true",
+            "name": "TMDB Movie Dataset Analysis",
+            "text": "It was implemented using Python, Pandas, Matplotlib, Seaborn, and Numpy.",
+            "github": "https://github.com/AmalAljabri/TMDB-Movie-Dataset-Analysis"
+        },
+        {
+            "tag": ["All Projects", "Web App"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Todo%20Reminder%20App.png?raw=true",
+            "name": "Todo Reminder App",
+            "text": "It was implemented using React js, Hooks, and Redux.",
+            "youtube": "https://www.youtube.com/watch?v=wv5sHvlbACk",
+            "github": "https://github.com/AmalAljabri/Todo-Reminder-App"
+        },
+        {
+            "tag": ["All Projects", "Web App", "Data Analysis"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Explore%20Weather%20Trends.png?raw=true",
+            "name": "Explore Weather Trends",
+            "text": "It was implemented using SQL, Python, Pandas, Matplotlib, and Streamlit.",
+            "youtube": "https://www.youtube.com/watch?v=i9sVUrlcGkY",
+            "github": "https://github.com/AmalAljabri/Explore-Weather-Trends"
+        },
+        {
+            "tag": ["All Projects", "Web App"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Weather%20App.png?raw=true",
+            "name": "Weather App",
+            "text": "It was implemented using React JavaScript library.",
+            "youtube": "https://www.youtube.com/watch?v=5Uq0LAjc8C4",
+            "github": "https://github.com/AmalAljabri/Weather-App"
+        },
+        {
+            "tag": ["All Projects", "Web App"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/My%20Website.png?raw=true",
+            "name": "My Website",
+            "text": "It was implemented using React JavaScript library.",
+            "github": "https://github.com/AmalAljabri/amalaljabri.github.io/tree/master"
+        },
+        {
+            "tag": ["All Projects", "Mobile App"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Calculator%20App.png?raw=true",
+            "name": "Calculator App",
+            "text": "It was implemented using Dart, Flutter, and GetX.",
+            "youtube": "https://www.youtube.com/watch?v=17NMliKOiLo",
+            "github": "https://github.com/AmalAljabri/Calculator-App"
+        },
+        {
+            "tag": ["All Projects", "Web App", "Machine Learning", "Deep Learning"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Date%20Fruits%20Classifier.png?raw=true",
+            "name": "Date Fruits Classifier",
+            "text": "It was implemented using Python, PyTorch, TensorFlow, HTML, CSS, bootstrap, JavaScript, and Flask.",
+            "youtube": "https://www.youtube.com/watch?v=kosW4Jd6g9A",
+            "github": "https://github.com/AmalAljabri/Date-Fruits-Classifier"
+        },
+        {
+            "tag": ["All Projects", "Web App"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/My%20Personal%20Website.png?raw=true",
+            "name": "My Personal Website (Version 1)",
+            "text": "It was implemented using Python, Django, HTML, CSS, and JavaScript.",
+            "youtube": "https://www.youtube.com/watch?v=Bkomxi6H43s",
+            "github": "https://github.com/AmalAljabri/My-Personal-Website-V1"
+        },
+        {
+            "tag": ["All Projects", "Web App", "Machine Learning", "Deep Learning", "Natural Language Processing"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Sentiment%20Analysis.png?raw=true",
+            "name": "Sentiment Analysis",
+            "text": "It was implemented using Python, PyTorch, HTML, CSS, bootstrap, JavaScript, and Amazon's SageMaker service.",
+            "youtube": "https://www.youtube.com/watch?v=9o-XNc_2jE4",
+            "github": "https://github.com/AmalAljabri/Sentiment-Analysis-Model"
+        },
+        {
+            "tag": ["All Projects", "Web App", "Machine Learning", "Deep Learning"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Face%20Generation.png?raw=true",
+            "name": "Face Generation",
+            "text": "It was implemented using Python, PyTorch, and Streamlit library.",
+            "youtube": "https://www.youtube.com/watch?v=QApE0vFIV6M",
+            "github": "https://github.com/AmalAljabri/Face-Generation"
+        },
+        {
+            "tag": ["All Projects", "Web App", "Machine Learning", "Deep Learning", "Natural Language Processing"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/TV%20Script%20Generation.png?raw=true",
+            "name": "TV Script Generation",
+            "text": "It was implemented using Python, PyTorch, and Streamlit library.",
+            "youtube": "https://www.youtube.com/watch?v=MtUNVVzgiM8",
+            "github": "https://github.com/AmalAljabri/TV-Script-Generation"
+        },
+        {
+            "tag": ["All Projects", "Mobile App", "Machine Learning", "Deep Learning"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Solar%20Eclipse%20Classification.png?raw=true",
+            "name": "Solar Eclipse Classification",
+            "text": "It was implemented using Python, TensorFlow Lite, and Flutter.",
+            "youtube": "https://www.youtube.com/watch?v=_A9-w3Gx3fE",
+            "github": "https://github.com/AmalAljabri/Solar-Eclipse-Classification"
+        },
+        {
+            "tag": ["All Projects", "Web App", "Machine Learning", "Deep Learning"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Dog%20Breed%20Classifier.png?raw=true",
+            "name": "Dog Breed Classifier",
+            "text": "It was implemented using Python, PyTorch, Flask, HTML, CSS, and bootstrap.",
+            "youtube": "https://www.youtube.com/watch?v=b9XRsFdiUqU",
+            "github": "https://github.com/AmalAljabri/Dog-Breed-Classifier"
+        },
+        {
+            "tag": ["All Projects", "Machine Learning", "Deep Learning"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Predicting%20Bike%20Sharing%20Patterns.png?raw=true",
+            "name": "Predicting Bike Sharing Patterns",
+            "text": "Implementing a Neural Network in NumPy to Predict Bike Rentals.",
+            "github": "https://github.com/AmalAljabri/Predicting-Bike-Sharing-Patterns"
+        },
+        {
+            "tag": ["All Projects", "Desktop App", "Computer Vision"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Virtual%20Arrow%20keys.png?raw=true",
+            "name": "Virtual Arrow keys",
+            "text": "It was implemented using Python, OpenCV, Numpy, and pynput.keyboard.",
+            "youtube": "https://www.youtube.com/watch?v=J6Nm-Tg81oU",
+            "github": "https://github.com/AmalAljabri/Virtual-Arrow-keys"
+        },
+        {
+            "tag": ["All Projects", "Virtual Reality"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Deep%20Relaxation%20Experience.png?raw=true",
+            "name": "Deep Relaxation Experience Using VR with HR Analysis",
+            "text": "It was implemented using Unity3D and Arduino.",
+            "youtube": "https://www.youtube.com/watch?v=voZvror-LPg"
+        },
+        {
+            "tag": ["All Projects", "Desktop App", "Computer Vision", "Deep Learning", "Machine Learning"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Translator%20ASL.png?raw=true",
+            "name": "Translator ASL",
+            "text": "It was implemented using Python, keras, and OpenCV.",
+            "youtube": "https://www.youtube.com/watch?v=tADyNw8ryXg",
+            "github": "https://github.com/AmalAljabri/Translator-App"
+        },
+        {
+            "tag": ["All Projects", "Desktop App", "Computer Vision", "Deep Learning", "Machine Learning"],
+            "image":"https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Face%20Mask%20Monitor.png?raw=true",
+            "name": "Face Mask Monitor",
+            "text": "It was implemented using Python, TensorFlow, and OpenCV.",
+            "youtube": "https://www.youtube.com/watch?v=7Ku__yyvUz4",
+            "github": "https://github.com/AmalAljabri/Face-Mask-Monitor"
+        },
+        {
+            "tag": ["All Projects", "Desktop App", "Computer Vision"],
+            "image": "https://github.com/AmalAljabri/amalaljabri.github.io/blob/main/src/images/Distancing%20Monitor.png?raw=true",
+            "name": "Social Distancing Monitor",
+            "text": "It was implemented using Python, YOLOv3, and OpenCV.",
+            "youtube": "https://www.youtube.com/watch?v=GtS5bPkk8HY",
+            "github": "https://github.com/AmalAljabri/Social-Distancing-Monitor"
+        },
+        {
+            "tag": ["All Projects", "Desktop App", "Machine Learning", "Data Analysis", "Natural Language Processing", "Virtual Reality"],
+            "image": "https://raw.githubusercontent.com/AmalAljabri/amalaljabri.github.io/main/src/images/Graduation%20Project.png",
+            "name": "Graduation Project",
+            "text": "It was implemented using Python, C++, and Unity3D with Arduino heart rate sensors, machine learning, and speech recognition techniques.",
+            "youtube": "https://www.youtube.com/watch?v=Uj2lA9Y8vqI"
+        },
+        {
+            "tag": ["All Projects", "Console App"],
+            "image": "https://raw.githubusercontent.com/AmalAljabri/amalaljabri.github.io/main/src/images/Odd-Even.png",
+            "name": "Odd-Even Transposition Sort Algorithm",
+            "text": "It was implemented using OpenMP and Java Multithreading.",
+            "github": "https://github.com/AmalAljabri/Parallel_Computing"
+        },
+        {
+            "tag": ["All Projects", "Console App"],
+            "image": "https://raw.githubusercontent.com/AmalAljabri/amalaljabri.github.io/main/src/images/Office%20Room%20Simulation.png",
+            "name": "Computer Graphics - Office Room Simulation",
+            "text": "It was implemented using C++ and OpenGL.",
+            "youtube": "https://www.youtube.com/watch?v=z41596dRAqY",
+            "github": "https://github.com/AmalAljabri/Computer-Graphics"
+    
+        },
+        {
+            "tag": ["All Projects", "Console App"],
+            "image": "https://raw.githubusercontent.com/AmalAljabri/amalaljabri.github.io/main/src/images/Bookstore.png",
+            "name": "Programming 2 - The Virtual Bookstore Project",
+            "text": "It was implemented using Java language.",
+            "github": "https://github.com/AmalAljabri/Virtual_Bookstore"
+        }
+    ]
+}
