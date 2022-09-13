@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const visit = <span role="img" aria-label="emoji"> 🎉💯</span>;
 export const count = <span role="img" aria-label="emoji"> 🤩🥳</span>;
