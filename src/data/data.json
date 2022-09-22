@@ -18,6 +18,12 @@
     ],
     "education":[
         {
+            "name": "Security Engineer - MCIT Nanodegree Program",
+            "date": "20 SEP 2022 - Present",
+            "location": "Saudi Digital Academy - Udacity"
+        
+          },
+        {
             "name": "Data Analyst Nanodegree Program",
             "date": "30 MAY 2021 - 25 JULY 2021",
             "location": "Misk Academy - Udacity"
@@ -71,9 +77,9 @@
         "Data Science",
         "Web App Development",
         "Mobile App Development",
-        "Augmented and Virtual Reality",
+        "Security Engineering",
         "Mathematics and Statistics",
-        "Scientific Researche",
+        "Scientific Researches",
         "Health Information Systems"
     ],
     "skills":[
@@ -102,6 +108,7 @@
                 "https://img.shields.io/badge/pytorch%20-%23EE4C2C.svg?&style=for-the-badge&logo=pytorch&logoColor=white",
                 "https://img.shields.io/badge/keras%20-%23D00000.svg?&style=for-the-badge&logo=keras&logoColor=white",
                 "https://img.shields.io/badge/flask%20-%23000000.svg?&style=for-the-badge&logo=flask&logoColor=white",
+                "https://img.shields.io/badge/django%20-%23092E20.svg?&style=for-the-badge&logo=django&logoColor=white",
                 "https://img.shields.io/badge/numpy%20-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white",
                 "https://img.shields.io/badge/flutter%20-%2302569B.svg?&style=for-the-badge&logo=flutter&logoColor=white",
                 "https://img.shields.io/badge/streamlit%20-%23FF4B4B.svg?&style=for-the-badge&logo=streamlit&logoColor=white",
