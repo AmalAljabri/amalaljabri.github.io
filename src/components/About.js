@@ -1,14 +1,15 @@
 import React from "react";
 import {
-    about, education,
+    about, education,certifications,
     experience, publication,
     interest, check,
-    skills
+    skills, honours
 } from "./Emojis";
 import data from "../data/data.json";
 
 const About = () => {
     const educationList = data["education"];
+    const certificationsList = data["Certifications & Training Programs"];
     const experienceList = data["experience"];
     const publicationsList = data["publications"];
     const interestsList = data["interests"];
@@ -26,34 +27,6 @@ const About = () => {
                         I am a passionate software engineer and researcher in computer science.
                         I have a passion for coding and get the most enjoyment from solving problems and building things all by myself.
                         Currently, I am seeking new professional challenges in development, artificial intelligence, and data science as it is my passion and aspiration 🎯🫶🏻✨!</p>
-                </div>
-
-                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{education} Education</h3>
-                <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] text-base rounded-md text-[#24292f] dark:text-[#c9d1d9] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                    <ol className="relative border-l border-[#d0d7de] dark:border-[#30363d] mt-6 mr-4 ml-8">
-                        {
-                            educationList.map(
-                                (education, index) =>
-                                    <li className="mb-6 ml-7" key={index}>
-                                        <span className="absolute flex items-center justify-center w-6 h-6 text-xs rounded-full -left-3 ring-4 ring-[#d0d7de90] bg-[#d0d7de] dark:ring-[#30363d90] dark:bg-[#30363d]">🗓</span>
-                                        {
-                                            education.name &&
-                                            <h3 className="flex items-center mb-1 text-base font-bold text-[#0969da] dark:text-[#58A6FF]">{education.name}</h3>}
-                                        {
-                                            education.date &&
-                                            <time className="mb-1 text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{education.date}</time>
-                                        }
-                                        {
-                                            education.location &&
-                                            <p className="text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{education.location}</p>
-                                        }
-                                        {
-                                            education.honours &&
-                                            <p className="text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{education.honours}</p>
-                                        }
-                                    </li>
-                            )}
-                    </ol>
                 </div>
 
                 <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{experience} Experience</h3>
@@ -79,6 +52,58 @@ const About = () => {
                                         <p className="text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{experience.role}</p>
                                     }
                                 </li>
+                            )}
+                    </ol>
+                </div>
+
+                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{education} Education</h3>
+                <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] text-base rounded-md text-[#24292f] dark:text-[#c9d1d9] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                    <ol className="relative border-l border-[#d0d7de] dark:border-[#30363d] mt-6 mr-4 ml-8">
+                        {
+                            educationList.map(
+                                (education, index) =>
+                                    <li className="mb-6 ml-7" key={index}>
+                                        <span className="absolute flex items-center justify-center w-6 h-6 text-xs rounded-full -left-3 ring-4 ring-[#d0d7de90] bg-[#d0d7de] dark:ring-[#30363d90] dark:bg-[#30363d]">🗓</span>
+                                        {
+                                            education.name &&
+                                            <h3 className="flex items-center mb-1 text-base font-bold text-[#0969da] dark:text-[#58A6FF]">{education.name}</h3>}
+                                        {
+                                            education.date &&
+                                            <time className="mb-1 text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{education.date}</time>
+                                        }
+                                        {
+                                            education.location &&
+                                            <p className="text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{education.location}</p>
+                                        }
+                                        {
+                                            education.honours &&
+                                            <p className="text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{education.honours} {honours}</p>
+                                        }
+                                    </li>
+                            )}
+                    </ol>
+                </div>
+
+                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{certifications} Certifications & Training Programs</h3>
+                <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] text-base rounded-md text-[#24292f] dark:text-[#c9d1d9] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                    <ol className="relative border-l border-[#d0d7de] dark:border-[#30363d] mt-6 mr-4 ml-8">
+                        {
+                            certificationsList.map(
+                                (certification, index) =>
+                                    <li className="mb-6 ml-7" key={index}>
+                                        <span className="absolute flex items-center justify-center w-6 h-6 text-xs rounded-full -left-3 ring-4 ring-[#d0d7de90] bg-[#d0d7de] dark:ring-[#30363d90] dark:bg-[#30363d]">🗓</span>
+                                        {
+                                            certification.name &&
+                                            <h3 className="flex items-center mb-1 text-base font-bold text-[#0969da] dark:text-[#58A6FF]">{certification.name}</h3>}
+                                        {
+                                            certification.date &&
+                                            <time className="mb-1 text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{certification.date}</time>
+                                        }
+                                        {
+                                            certification.location &&
+                                            <p className="text-sm font-normal text-[#24292f] dark:text-[#c9d1d9]">{certification.location}</p>
+                                        }
+                                    </li>
                             )}
                     </ol>
                 </div>

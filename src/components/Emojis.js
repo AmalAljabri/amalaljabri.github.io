@@ -8,6 +8,7 @@ export const projectsPage = <span role="img" aria-label="emoji">👩🏻‍💻<
 export const aboutPage = <span role="img" aria-label="emoji">👋🏻</span>;
 export const about = <span role="img" aria-label="emoji">😎</span>;
 export const education = <span role="img" aria-label="emoji">🎓</span>;
+export const certifications = <span role="img" aria-label="emoji">💪🏻</span>;
 export const date = <span role="img" aria-label="emoji">📆</span>;
 export const location = <span role="img" aria-label="emoji">🏫</span>;
 export const link = <span role="img" aria-label="emoji">🔗</span>;
