@@ -33,7 +33,7 @@
     "Certifications & Training Programs": [
         {
             "name": "Security Engineer - MCIT Nanodegree Program",
-            "date": "20 SEP 2022 - Present",
+            "date": "20 SEP 2022 - 2 FEB 2023",
             "location": "Saudi Digital Academy & Udacity"
         },
         {
@@ -164,6 +164,15 @@
         }
     ],
     "projects": [
+        {
+            "tag": [
+                "All Projects"
+            ],
+            "image": "https://raw.githubusercontent.com/AmalAljabri/amalaljabri.github.io/main/src/images/Security Engineer.png",
+            "name": "Security Engineer Nanodegree Program Projects",
+            "text": "It was 5 projects implemented as part of this program.",
+            "github": "https://github.com/AmalAljabri/Security-Engineer-MCIT"
+        },
         {
             "tag": [
                 "All Projects",
