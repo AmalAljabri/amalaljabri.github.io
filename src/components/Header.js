@@ -1,8 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { aboutPage, projectsPage, contactPage } from "./Emojis";
-import logo from "../images/logo.gif";
+//import logo from "../images/logo.gif";
 import ThemeMode from "./ThemeMode";
+
+const logo =  require("../images/logo.gif")
 const Header = () => {
     const [colorTheme, setTheme] = ThemeMode()
     return (
@@ -16,12 +18,14 @@ const Header = () => {
                 className= "rounded-full w-6 h-6 border border-transparent" 
                 onClick={()=> setTheme(colorTheme)}>{
                     colorTheme === "light" ?
-                    <span title="Light Mode">🌝</span>
+                    <span 
+                    title="Light Mode">🌝</span>
                     :
-                    <span title="Dark Mode">🌚</span> 
+                    <span
+                    title="Dark Mode">🌚</span> 
                     }
                 </button>
-                </span>
+                 </span>
 
             </div>  
             

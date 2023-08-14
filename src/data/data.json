@@ -1,6 +1,5 @@
 {
-    "contact": [
-        {
+    "contact": [{
             "name": "Linkedin",
             "link": "https://www.linkedin.com/in/amal-aljabri",
             "image": "https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"
@@ -16,8 +15,7 @@
             "image": "https://img.shields.io/badge/youtube-%23ff0000.svg?&style=for-the-badge&logo=youtube&logoColor=white"
         }
     ],
-    "education": [
-        {
+    "education": [{
             "name": "Bachelor's Degree in Computer Science",
             "date": "10 NOV 2016 - 2 APR 2020",
             "location": "Taibah University",
@@ -30,8 +28,7 @@
             "honours": "First-Class Honours"
         }
     ],
-    "Certifications & Training Programs": [
-        {
+    "Certifications & Training Programs": [{
             "name": "Security Engineer - MCIT Nanodegree Program",
             "date": "20 SEP 2022 - 2 FEB 2023",
             "location": "Saudi Digital Academy & Udacity"
@@ -57,16 +54,17 @@
             "location": "Taibah Valley"
         }
     ],
-    "experience": [
-        {
+    "experience": [{
             "name": "Computer Specialist",
             "date": "16 AUG 2021 - Present",
-            "location": "Ministry of Health"
+            "location": "Ministry of Health",
+            "role": ""
         },
         {
             "name": "Internship",
             "date": "17 JAN 2016 - 1 MAY 2016",
-            "location": "Ministry of Education"
+            "location": "Ministry of Education",
+            "role": ""
         }
     ],
     "interests": [
@@ -75,14 +73,13 @@
         "Computer Vision",
         "Data Science",
         "Web App Development",
-        "Mobile App Development",
+        "Systems Development",
         "Security Engineering",
+        "Health Information Systems",
         "Mathematics and Statistics",
-        "Scientific Researches",
-        "Health Information Systems"
+        "Scientific Researches"
     ],
-    "skills": [
-        {
+    "skills": [{
             "name": "Programming Languages",
             "links": [
                 "https://img.shields.io/badge/html%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white",
@@ -122,6 +119,15 @@
             ]
         },
         {
+            "name": "Health Information Systems",
+            "links": [
+                "https://img.shields.io/badge/ALERT%20-%23ff0006.svg?&style=for-the-badge&logo=ALERT&logoColor=white",
+                "https://img.shields.io/badge/Medica Cloudcare%20-%23f45202.svg?&style=for-the-badge&logo=Medica Cloudcare&logoColor=white",
+                "https://img.shields.io/badge/Clinidata%20-%23045ca4.svg?&style=for-the-badge&logo=hClinidata&logoColor=white",
+                "https://img.shields.io/badge/Agfa%20-%23Fc0c0c.svg?&style=for-the-badge&logo=Agfa&logoColor=white"
+            ]
+        },
+        {
             "name": "Other Technical Skills",
             "links": [
                 "https://img.shields.io/badge/unity3d%20-%23000000.svg?&style=for-the-badge&logo=unity&logoColor=white",
@@ -132,14 +138,20 @@
                 "https://img.shields.io/badge/microsoft office%20-%23D83B01.svg?&style=for-the-badge&logo=microsoft office&logoColor=white",
                 "https://img.shields.io/badge/Amazon SageMaker%20-%234053D6.svg?&style=for-the-badge&logo=amazon sagemaker&logoColor=white",
                 "https://img.shields.io/badge/prezi%20-%233181FF.svg?&style=for-the-badge&logo=prezi&logoColor=white",
+                "https://img.shields.io/badge/trello%20-%230052CC.svg?&style=for-the-badge&logo=trello&logoColor=black",
                 "https://img.shields.io/badge/firebase%20-%23FFCA28.svg?&style=for-the-badge&logo=firebase&logoColor=black",
+                "https://img.shields.io/badge/Linux%20-%23FCC624.svg?&style=for-the-badge&logo=Linux&logoColor=black",
                 "https://img.shields.io/badge/Adobe Illustrator%20-%23FF9A00.svg?&style=for-the-badge&logo=Adobe Illustrator&logoColor=black",
                 "https://img.shields.io/badge/UML diagrams%20-%2336465D.svg?&style=for-the-badge&logo=UML diagrams&logoColor=white",
                 "https://img.shields.io/badge/API Design%20-%237F2B7B.svg?&style=for-the-badge&logo=API Design&logoColor=white",
+                "https://img.shields.io/badge/Troubleshooting%20-%234B69B6.svg?&style=for-the-badge&logo=&logoColor=white",
+                "https://img.shields.io/badge/Technical Support%20-%23C2AD6F.svg?&style=for-the-badge&logo=&logoColor=white",
                 "https://img.shields.io/badge/Operating Systems%20-%230081A5.svg?&style=for-the-badge&logo=Operating Systems&logoColor=white",
-                "https://img.shields.io/badge/Linux%20-%23FCC624.svg?&style=for-the-badge&logo=Linux&logoColor=black"
+                "https://img.shields.io/badge/ChatGPT%20-%2304a37c.svg?&style=for-the-badge&logo=ChatGPT&logoColor=white"
+
             ]
         },
+
         {
             "name": "Personal Skills",
             "links": [
@@ -147,24 +159,30 @@
                 "https://img.shields.io/badge/Organization%20-%2300485B.svg?&style=for-the-badge&logo=&logoColor=white",
                 "https://img.shields.io/badge/Planning%20-%2300B388.svg?&style=for-the-badge&logo=&logoColor=white",
                 "https://img.shields.io/badge/Problem Solving%20-%23D32323.svg?&style=for-the-badge&logo=&logoColor=white",
-                "https://img.shields.io/badge/Troubleshooting%20-%23FC7E0F.svg?&style=for-the-badge&logo=&logoColor=white",
                 "https://img.shields.io/badge/Teamwork%20-%23AC2E45.svg?&style=for-the-badge&logo=&logoColor=white",
                 "https://img.shields.io/badge/Research%20-%233E4348.svg?&style=for-the-badge&logo=&logoColor=white",
                 "https://img.shields.io/badge/Written and Oral Communication%20-%23006241.svg?&style=for-the-badge&logo=&logoColor=white"
             ]
         }
     ],
-    "publications": [
-        {
+    "publications": [{
             "name": "Overcoming Speech Anxiety Using Virtual Reality with Voice and Heart Rate Analysis",
             "date": "16 DEC 2020",
             "publisher": "Published in: 2020 13th International Conference on Developments in eSystems Engineering (DeSE)",
             "DOI": "10.1109/DeSE51703.2020.9450783",
             "link": "https://ieeexplore.ieee.org/document/9450783"
-        }
-    ],
-    "projects": [
+        },
         {
+            "name": "Deep Relaxation Experience Using Virtual Reality with Heart Rate Analysis",
+            "date": "14 DEC 2020",
+            "publisher": "Accepted in: Workshop on Extended Reality in Medical Imaging (XRMI) as Part of IEEE-AIVR 2020"
+
+
+        }
+
+    ],
+
+    "projects": [{
             "tag": [
                 "All Projects"
             ],

@@ -17,5 +17,5 @@ export const experience = <span role="img" aria-label="emoji">💼</span>;
 export const role = <span role="img" aria-label="emoji">🌱</span>;
 export const publication = <span role="img" aria-label="emoji">📖</span>;
 export const interest = <span role="img" aria-label="emoji">🤩</span>;
-export const check = <span role="img" aria-label="emoji">✅</span>;
+export const check = <span role="img" aria-label="emoji">❇️</span>;
 export const skills = <span role="img" aria-label="emoji">🌟</span>;

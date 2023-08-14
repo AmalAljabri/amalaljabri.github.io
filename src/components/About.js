@@ -21,15 +21,15 @@ const About = () => {
 
                 <h2 className="text-center text-lg font-bold mb-8">A little bit of information about myself 👀!</h2>
 
-                <h3 className="mb-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{about} About Me</h3>
+                <h3 className="mb-4 text-lg font-bold capitalize" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{about} About Me</h3>
                 <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] text-base rounded-md text-[#24292f] dark:text-[#c9d1d9] p-5" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                    <p>Hello .. My name is <span className="text-[#0969da] dark:text-[#58A6FF] font-bold">Amal</span> and I am from Madina, a peaceful city in the west part of Saudi Arabia 🇸🇦.
+                    <p>Hello <span className="animate-waving-hand">👋🏻</span> .. My name is <span className="text-[#0969da] dark:text-[#58A6FF] font-bold">Amal</span> and I am from Madina, a peaceful city in the west part of Saudi Arabia 🇸🇦.
                         I am a passionate software engineer and researcher in computer science.
                         I have a passion for coding and get the most enjoyment from solving problems and building things all by myself.
-                        Currently, I am seeking new professional challenges in development, artificial intelligence, and data science as it is my passion and aspiration 🎯🫶🏻✨!</p>
+                        Currently, I am seeking new professional challenges in Digital Health Transformation, Systems Development, Artificial Intelligence, and Data Science as it is my passion and aspiration 🎯🫶🏻✨!</p>
                 </div>
 
-                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{experience} Experience</h3>
+                <h3 className="my-4 text-lg font-bold capitalize" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{experience} Experience</h3>
                 <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] rounded-md text-[#788089] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                     <ol className="relative border-l border-[#d0d7de] dark:border-[#30363d] mt-6 mr-4 ml-8">
                         {
@@ -56,7 +56,7 @@ const About = () => {
                     </ol>
                 </div>
 
-                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{education} Education</h3>
+                <h3 className="my-4 text-lg font-bold capitalize" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{education} Education</h3>
                 <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] text-base rounded-md text-[#24292f] dark:text-[#c9d1d9] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                     <ol className="relative border-l border-[#d0d7de] dark:border-[#30363d] mt-6 mr-4 ml-8">
                         {
@@ -84,7 +84,7 @@ const About = () => {
                     </ol>
                 </div>
 
-                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{certifications} Certifications & Training Programs</h3>
+                <h3 className="my-4 text-lg font-bold capitalize" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{certifications} Certifications & Training Programs</h3>
                 <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] text-base rounded-md text-[#24292f] dark:text-[#c9d1d9] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                     <ol className="relative border-l border-[#d0d7de] dark:border-[#30363d] mt-6 mr-4 ml-8">
                         {
@@ -108,7 +108,7 @@ const About = () => {
                     </ol>
                 </div>
 
-                <h3 className="my-4 text-xl font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{publication} Publications</h3>
+                <h3 className="my-4 text-xl font-bold capitalize" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{publication} Publications</h3>
                 <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] rounded-md text-[#788089] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                     <ol className="relative border-l border-[#d0d7de] dark:border-[#30363d] mt-6 mr-4 ml-8">
                         {
@@ -135,7 +135,7 @@ const About = () => {
                     </ol>
                 </div>
 
-                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{interest} Interests</h3>
+                <h3 className="my-4 text-lg font-bold capitalize" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{interest} Interests</h3>
                 <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] rounded-md text-[#788089] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                     <div className="my-6 mx-6 grid gap-3 sm:grid-cols-2 grid-cols-1">{
                         interestsList.map((interest, index) =>
@@ -148,7 +148,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <h3 className="my-4 text-lg font-bold uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{skills} My Skills</h3>
+                <h3 className="my-4 text-lg font-bold capitalize" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">{skills} My Skills</h3>
                 <div className="bg-white dark:bg-[#0d1117] border border-[#d0d7de] dark:border-[#30363d] rounded-md text-[#788089] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                     {
                         skillsList.map((skill, index) =>
